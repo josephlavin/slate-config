@@ -13,4 +13,10 @@ Keyboard shortcuts for a full keyboard can be access via. `cmd`+`number pad #`.
 Keyboard shortcuts for a smaller keyboard (without number pad) can be access via. `cmd`+`option`+`arrow key` and `cmd`+`option`+`shift`+`arrow key`.
 
 ## Install
-See [mattr-/slate](https://github.com/mattr-/slate#installing-slate) for install instructions.  Once installed put [slate.js](slate.js) into your `home` directory as `.slate.js`.
+See [mattr-/slate#installing-slate](https://github.com/mattr-/slate#installing-slate) for Slate install instructions.  Then run this command in your terminal:
+
+~~~bash
+cd ~ && curl https://raw.githubusercontent.com/josephlavin/slate-config/master/slate.js -o .slate.js
+~~~
+
+This will put [slate.js](slate.js) into your `home` directory as `.slate.js`.
