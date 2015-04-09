@@ -46,13 +46,13 @@ var pushToVerticalEdge = function(win, lastPos, direction){
 var pushToHorizontalEdge = function(win, lastPos, direction){
     switch (lastPos) {
         case 1:
-            var x = "screenSizeX*.34";
             var y = "0";
             if(direction == 'bottom') {
                 y = "screenOriginY+(screenSizeY/2)";
             }
+
             win.doOperation(slate.operation("move", {
-                "x": x,
+                "x": "screenOriginX+(screenSizeX*.34)",
                 "y": y,
                 "width" : "screenSizeX*.32",
                 "height": "screenSizeY*.5"
