@@ -8,31 +8,30 @@
  * @returns {number} position to track
  */
 var pushToVerticalEdge = function(win, lastPos, direction){
+    var style = "bar-resize:screenSizeX*";
     switch (lastPos) {
         case 2:
-            win.doOperation(slate.operation("push", {
-                "direction" : direction,
-                "style" : "bar-resize:screenSizeX*.66"
-            }));
-            return 3;
+            style = style + ".66";
+            lastPos = 3;
             break;
 
         case 1:
-            win.doOperation(slate.operation("push", {
-                "direction" : direction,
-                "style" : "bar-resize:screenSizeX*.34"
-            }));
-            return 2;
+            style = style + ".34";
+            lastPos = 2;
             break;
 
         default:
-            win.doOperation(slate.operation("push", {
-                "direction" : direction,
-                "style" : "bar-resize:screenSizeX*.5"
-            }));
-            return 1;
+            style = style + ".5";
+            lastPos = 1;
             break;
     }
+
+    win.doOperation(slate.operation("push", {
+        "direction" : direction,
+        "style" : style
+    }));
+
+    return lastPos;
 };
 
 /**
