@@ -8,9 +8,9 @@ The layout is based on a windows only application "WinSplit Revolution".  For a 
 
 I switch from a desktop full keyboard to a laptop so this includes two sets of keyboard bindings. 
 
-Keyboard shortcuts for a full keyboard can be access via. `cmd`+`number pad #`.
+Keyboard shortcuts for a full keyboard can be access via. <kbd>cmd</kbd>+<kbd>number pad #</kbd>.
 
-Keyboard shortcuts for a smaller keyboard (without number pad) can be access via. `cmd`+`option`+`arrow key` and `cmd`+`option`+`shift`+`arrow key`.
+Keyboard shortcuts for a smaller keyboard (without number pad) can be access via. <kbd>cmd</kbd>+<kbd>option</kbd>+<kbd>arrow key</kbd> and <kbd>cmd</kbd>+<kbd>option</kbd>+<kbd>shift</kbd>+<kbd>arrow key</kbd>.
 
 ## Install
 See [mattr-/slate#installing-slate](https://github.com/mattr-/slate#installing-slate) for Slate install instructions.  Then run this command in your terminal:
