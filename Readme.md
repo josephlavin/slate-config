@@ -10,18 +10,18 @@ I switch from a desktop full keyboard to a laptop so this includes two sets of k
 
 Shortcut will cycle through three sizes except for the top/bottom which will cycle through two sizes.  All numbers on full keyboard shortcuts refer to number pad.
 
-| Full Keyboard Shortcut | Small Keyboard Shortcut | Action |
+| Full Keyboard Shortcut | Small Keyboard Shortcut | Window Movement |
 | ------------- | ----------- | ----------- |
-| <kbd>&#8984;</kbd> + <kbd>6</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>&rarr;</kbd> | Move Window to Right Side of Screen |
-| <kbd>&#8984;</kbd> + <kbd>4</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>&larr;</kbd> | Move Window to Left Side of Screen |
-| <kbd>&#8984;</kbd> + <kbd>8</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>&uarr;</kbd> | Move Window to Top or Top Middle of Screen |
-| <kbd>&#8984;</kbd> + <kbd>2</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>&darr;</kbd> | Move Window to Bottom or Bottom Middle of Screen|
-| <kbd>&#8984;</kbd> + <kbd>9</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> +  <kbd>shift</kbd> + <kbd>&larr;</kbd> | Move Window to Top Right Corner of Screen |
-| <kbd>&#8984;</kbd> + <kbd>3</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>&darr;</kbd> | Move Window to Bottom Right Corner of Screen |
-| <kbd>&#8984;</kbd> + <kbd>7</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> +  <kbd>shift</kbd> + <kbd>&rarr;</kbd> | Move Window to Top Left Corner of Screen |
-| <kbd>&#8984;</kbd> + <kbd>1</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>&uarr;</kbd> | Move Window to Bottom Left Corner of Screen |
-| <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>6</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>control</kbd> + <kbd>&rarr;</kbd> | Move Window to Right Side of Right Monitor |
-| <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>4</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>control</kbd> + <kbd>&larr;</kbd> | Move Window to Left Side of Left Monitor |
+| <kbd>&#8984;</kbd> + <kbd>6</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>&rarr;</kbd> | Right Side of Screen |
+| <kbd>&#8984;</kbd> + <kbd>4</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>&larr;</kbd> | Left Side of Screen |
+| <kbd>&#8984;</kbd> + <kbd>8</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>&uarr;</kbd> | Top or Top Middle of Screen |
+| <kbd>&#8984;</kbd> + <kbd>2</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>&darr;</kbd> | Bottom or Bottom Middle of Screen|
+| <kbd>&#8984;</kbd> + <kbd>9</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> +  <kbd>shift</kbd> + <kbd>&larr;</kbd> | Top Right Corner of Screen |
+| <kbd>&#8984;</kbd> + <kbd>3</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>&darr;</kbd> | Bottom Right Corner of Screen |
+| <kbd>&#8984;</kbd> + <kbd>7</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> +  <kbd>shift</kbd> + <kbd>&rarr;</kbd> | Top Left Corner of Screen |
+| <kbd>&#8984;</kbd> + <kbd>1</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>&uarr;</kbd> | Bottom Left Corner of Screen |
+| <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>6</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>control</kbd> + <kbd>&rarr;</kbd> | Right Side of Right Monitor |
+| <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>4</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>control</kbd> + <kbd>&larr;</kbd> | Left Side of Left Monitor |
 | <kbd>&#8984;</kbd> + <kbd>5</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>f</kbd> | Make Window Full Screen Size |
 
 ## Install
