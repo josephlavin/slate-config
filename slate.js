@@ -194,3 +194,44 @@ slate.bind("pad5:cmd", function(win) {
 slate.bind("f:cmd,alt", function(win) {
     fullScreen(win);
 });
+
+/**
+ * Move to right most or left most monitor based on direction
+ *
+ * @param direction right|left
+ * @param win window object
+ **/
+var moveToScreen = function(direction, win) {
+    // build an array of screens
+    var screens = new Array();
+    slate.eachScreen(function(screenObject) {
+        screens.push(screenObject);
+    });
+
+    // figure out the target screen based off of direction
+    if(direction == 'right') {
+        // assume right is the last screen in screens array
+        // use pushToVerticalEdge to continue cycle
+        rightPos = pushToVerticalEdge(win, rightPos, 'right', screens.pop());
+    }
+    else if(direction == 'left') {
+        // assume left is the first screen in screens array
+        leftPos = pushToVerticalEdge(win, leftPos, 'left', screens.shift());
+    }
+};
+
+slate.bind("pad6:cmd,shift", function(win) {
+    moveToScreen('right', win);
+});
+
+slate.bind("right:cmd,alt,ctrl", function(win) {
+    moveToScreen('right', win);
+});
+
+slate.bind("pad4:cmd,shift", function(win) {
+    moveToScreen('left', win);
+});
+
+slate.bind("left:cmd,alt,ctrl", function(win) {
+    moveToScreen('left', win);
+});
