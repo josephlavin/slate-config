@@ -6,8 +6,13 @@
  * @param lastPos current tracked position
  * @param direction right|left
  * @returns {number} position to track
+ * @param screen optional
  */
-var pushToVerticalEdge = function(win, lastPos, direction){
+var pushToVerticalEdge = function(win, lastPos, direction, screen){
+    if( screen == null ) {
+        screen = slate.screen();
+    }
+
     var style = "bar-resize:screenSizeX*";
     switch (lastPos) {
         case 2:
@@ -28,7 +33,8 @@ var pushToVerticalEdge = function(win, lastPos, direction){
 
     win.doOperation(slate.operation("push", {
         "direction" : direction,
-        "style" : style
+        "style" : style,
+        "screen" : screen
     }));
 
     return lastPos;
