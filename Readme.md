@@ -6,11 +6,11 @@ This is a `.slate.js` file for the [Slate Window Management System](https://gith
 
 The layout is based on a windows only application "WinSplit Revolution".  For a quick overview [watch this youtube video](https://www.youtube.com/watch?v=o1AtHyf4pRQ).
 
-I switch from a desktop full keyboard to a laptop so this includes two sets of keyboard bindings.  One designed for a full keyboard with number pad and one designed for a smaller keyboard without number pad. 
+I switch from a desktop full keyboard to a laptop so this includes two sets of keyboard bindings.  One designed for a full keyboard with number pad and one designed for a compact keyboard without number pad. 
 
 Shortcut will cycle through three sizes except for the top/bottom which will cycle through two sizes.  All numbers on full keyboard shortcuts refer to number pad.
 
-| Full Keyboard Shortcut | Small Keyboard Shortcut | Window Movement |
+| Full Keyboard Shortcut | Compact Keyboard Shortcut | Window Movement |
 | ------------- | ----------- | ----------- |
 | <kbd>&#8984;</kbd> + <kbd>6</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>&rarr;</kbd> | Right Side of Screen |
 | <kbd>&#8984;</kbd> + <kbd>4</kbd> | <kbd>&#8984;</kbd> + <kbd>alt</kbd> + <kbd>&larr;</kbd> | Left Side of Screen |
